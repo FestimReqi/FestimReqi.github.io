@@ -75,11 +75,14 @@ body{
             width: 100%;
             height: 700px;
             
+            margin-left: auto;
+            margin-right: auto;
             display: flex;
             justify-content: space-around;
             align-items: center;
             .text{
-
+                margin-left: auto;
+                margin-right: auto;
                 h1{
                     color: #fff;
                     font-size: 100px;
@@ -90,7 +93,8 @@ body{
             .img{
                 object-fit:cover;
                 object-position:bottom;
-
+                margin-left: auto;
+                margin-right: auto;
                 img{
                     width: 300px;
                     border-radius: 500px;
@@ -106,7 +110,8 @@ body{
         .s_page{
             width: 100%;
             height: 700px;
-            
+            margin-left: auto;
+            margin-right: auto;
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -135,6 +140,8 @@ body{
         .third_p{
             width: 100%;
             height: 600px;
+            margin-left: auto;
+            margin-right: auto;
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -146,7 +153,8 @@ body{
             }
          }   
          .text_th{
-
+            margin-left: auto;
+            margin-right: auto;
             .basic_text{
 
                 color: #fff;
@@ -164,6 +172,8 @@ body{
         width: 100%;
         height: 600px;
         display: flex;
+        margin-left: auto;
+        margin-right: auto;
         align-items: center;
         justify-content: left;
         .fourth_p{
@@ -280,7 +290,8 @@ body{
     .f_page{
         width: 100%;
         height: 700px;
-        
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
