@@ -1,14 +1,31 @@
+#videobcg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100% !important;
+    max-height: 100% !important;
+    z-index: -1000;
+    overflow: hidden;
+    object-fit: fill;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+
+
 body{
     background-color: #000;
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
-    cursor: url('../img/c-1.png'),auto;
+    cursor: url('../img/mmmdd.png'),auto;
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 10px;
 }
 
 /* Track */
@@ -29,6 +46,15 @@ body{
   background: #d9ff91;
 }
 
+::-moz-selection { /* Code for Firefox */
+    color: #000;
+    background: #FEFBF6;
+  }
+  
+  ::selection {
+    color: #000;
+    background: #FEFBF6;
+  }
 
 .container{
     padding: 0 50px;
@@ -130,6 +156,7 @@ body{
                 color: #fff;
                 font-size: 20px;
                 word-spacing: 15px;
+                // text-align: justify;
             }
 
         }
@@ -159,7 +186,7 @@ body{
 
                 color: #fff;
                 h1{
-                    font-weight: 300;
+                    font-weight: 700;
                 }
 
                 
@@ -187,11 +214,14 @@ body{
                         font-weight: 500;
                         letter-spacing: 5px;
                         span{
+                            color: #525FE1;
+                            font-weight: 800;
                             opacity: 0.3;
                         }
                         span:hover{
                             transition: ease-in-out 0.3s;
                             opacity: 1;
+                            color: #F1C93B;
                         }
                     }
                 }
@@ -215,6 +245,11 @@ body{
                 color: #fff;
                 font-size: 30px;
                 text-decoration: none;
+                font-weight: 700;
+                transition: 0.5s ease-in-out;
+            }
+            a:hover{
+                color:#A2FF86;
             }
             
         }
@@ -229,6 +264,11 @@ body{
                 color: #fff;
                 font-size: 30px;
                 text-decoration: none;
+                font-weight: 700;
+                transition: 0.5s ease-in-out;
+            }
+            a:hover{
+                color:#4E4FEB;
             }
             
         }
@@ -243,6 +283,11 @@ body{
                 color: #fff;
                 font-size: 30px;
                 text-decoration: none;
+                font-weight: 700;
+                transition: 0.5s ease-in-out;
+            }
+            a:hover{
+                color: #E966A0;
             }
             
         }
@@ -257,6 +302,11 @@ body{
                 color: #fff;
                 font-size: 30px;
                 text-decoration: none;
+                font-weight: 700;
+                transition: 0.5s ease-in-out;
+            }
+            a:hover{
+                color: #5A96E3;
             }
             
         }
@@ -271,6 +321,29 @@ body{
                 color: #fff;
                 font-size: 30px;
                 text-decoration: none;
+                font-weight: 700;
+                transition: 0.5s ease-in-out;
+            }
+            a:hover{
+                color: #FB2576;
+            }
+            
+        }
+        
+    }
+    .benance{
+        .benance_a{
+            
+            a{
+                font-weight: 500;
+                color: #fff;
+                font-size: 30px;
+                text-decoration: none;
+                font-weight: 700;
+                transition: 0.5s ease-in-out;
+            }
+            a:hover{
+                color: #19A7CE;
             }
             
         }
@@ -335,11 +408,12 @@ body{
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-            ul{
+            ._pageForth_new{
                 li{
                     a{
                         font-size: auto;
                     }
+                    
                 }
             }
         }
