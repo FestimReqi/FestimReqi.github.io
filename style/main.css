@@ -1,14 +1,30 @@
+#videobcg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100% !important;
+  max-height: 100% !important;
+  z-index: -1000;
+  overflow: hidden;
+  -o-object-fit: fill;
+     object-fit: fill;
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+}
+
 body {
   background-color: #000;
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
-  cursor: url("../img/c-1.png"), auto;
+  cursor: url("../img/mmmdd.png"), auto;
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 10px;
 }
 
 /* Track */
@@ -26,6 +42,16 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #d9ff91;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #000;
+  background: #FEFBF6;
+}
+
+::selection {
+  color: #000;
+  background: #FEFBF6;
 }
 
 .container {
@@ -136,7 +162,7 @@ body {
   color: #fff;
 }
 .full_page .third_page .third_p .text_th .basic_text h1 {
-  font-weight: 300;
+  font-weight: 700;
 }
 .full_page .fourth_page {
   width: 100%;
@@ -155,11 +181,14 @@ body {
   letter-spacing: 5px;
 }
 .full_page .fourth_page .fourth_p ul li a span {
+  color: #525FE1;
+  font-weight: 800;
   opacity: 0.3;
 }
 .full_page .fourth_page .fourth_p ul li a span:hover {
   transition: ease-in-out 0.3s;
   opacity: 1;
+  color: #F1C93B;
 }
 
 .links_social .github .github_a a {
@@ -167,30 +196,66 @@ body {
   color: #fff;
   font-size: 30px;
   text-decoration: none;
+  font-weight: 700;
+  transition: 0.5s ease-in-out;
+}
+.links_social .github .github_a a:hover {
+  color: #A2FF86;
 }
 .links_social .Linkedin .Linkedin_a a {
   font-weight: 500;
   color: #fff;
   font-size: 30px;
   text-decoration: none;
+  font-weight: 700;
+  transition: 0.5s ease-in-out;
+}
+.links_social .Linkedin .Linkedin_a a:hover {
+  color: #4E4FEB;
 }
 .links_social .instagram .instagram_a a {
   font-weight: 500;
   color: #fff;
   font-size: 30px;
   text-decoration: none;
+  font-weight: 700;
+  transition: 0.5s ease-in-out;
+}
+.links_social .instagram .instagram_a a:hover {
+  color: #E966A0;
 }
 .links_social .facebook .facebook_a a {
   font-weight: 500;
   color: #fff;
   font-size: 30px;
   text-decoration: none;
+  font-weight: 700;
+  transition: 0.5s ease-in-out;
+}
+.links_social .facebook .facebook_a a:hover {
+  color: #5A96E3;
 }
 .links_social .dribbble .dribbble_a a {
   font-weight: 500;
   color: #fff;
   font-size: 30px;
   text-decoration: none;
+  font-weight: 700;
+  transition: 0.5s ease-in-out;
+}
+.links_social .dribbble .dribbble_a a:hover {
+  color: #FB2576;
+}
+.links_social .benance .benance_a a {
+  font-weight: 500;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.5s ease-in-out;
+}
+.links_social .benance .benance_a a:hover {
+  color: #19A7CE;
 }
 
 @media only screen and (max-width: 900px) {
@@ -241,7 +306,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
   }
-  .fourth_page .fourth_p ul li a {
+  .fourth_page .fourth_p ._pageForth_new li a {
     font-size: auto;
   }
   .container_2 .brake_2 {
